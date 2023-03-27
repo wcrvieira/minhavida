@@ -1,0 +1,23 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu a {
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: red;
+}
